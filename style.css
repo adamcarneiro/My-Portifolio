@@ -15,16 +15,27 @@ main{
     column-gap: 10px;
 
     background-color: brown;
-    height: 100vh;
+    height: 100%;
 
 }
 
-div{
-    width: 100%;
+.left-card{
+    width: 413px;
+    height: 692.17px;
+    background: #FFFFFF;
+    border-radius: 12px;
 }
+
+.projects-card{
+    width: 859px;
+    height: 320px;
+    background: #FFFFFF;
+    border-radius: 12px;
+}
+
 #um{
     background-color: aqua;
-    
+
 }
 
 #dois{
