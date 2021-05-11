@@ -12,15 +12,18 @@ main{
 
     display: grid;
 
-    column-gap: 10px;
+    column-gap: 30px;
 
-    background-color: rgb(242, 235, 235);
+    background-color: #d5d5d5;
     height: 100%;
 
 }
 
 /* LEFT-SIDE */
-
+#left-card-container{
+    /* background-color: rgb(242, 235, 235); */
+        background-color: #d5d5d5;
+    }
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ MY INFORMATION CARD ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .left-card{
     width: 340px;
@@ -144,8 +147,6 @@ main{
     /* width: 129px;
     height: 17px; */
 
-    
-
     margin-top: 5px;
 
     font-family: Montserrat;
@@ -154,7 +155,6 @@ main{
     font-size: 11px;
     line-height: 17px;
     /* identical to box height */
-
 
     color: #828282;
 }
@@ -191,7 +191,7 @@ main{
 }
 
 
-/* +++++++++++++++++++++++++++++++++++++++++++++++ HOBBIES CARD +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ HOBBIES CARD ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 #hobbies-card{
     height: 684px;
 }
@@ -252,48 +252,124 @@ main{
     object-fit: cover;
 }
 
+/* :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: RIGHT SIDE :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ RIGHT SIDE TO INFO +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
-.projects-card{
+#right-side-container{
+    /* background-color: rgb(242, 235, 235); */
+    background-color: #cf1717; 
+}
+
+.right-side-top-container{
+    background-color: #d5d5d5;
+
     width: 859px;
-    height: 320px;
+    /* width: 90%; */
+    height: 260px;
+    /* background: #FFFFFF; */
+    border-radius: 12px;
+
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.right-side-frontend{
+    width: 355.02px;
+    height: 220px;
+
+    margin-right: 55px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+
+    padding: 20px;
+}
+
+.right-side-frontend h4{
+    /* width: 120.56px; */
+    height: 23.47px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+
+.left-side-design{
+    width: 415.02px;
+    height: 157px;
+
     background: #FFFFFF;
     border-radius: 12px;
 }
 
-#left-card-container{
-    background-color: rgb(242, 235, 235);
+.tech-container{
+    /* background-color: brown; */
+    display: flex;
 
-}
-
-
-
-#dois{
-    background-color: yellow;
-}
-/* #tres{
-    background-color: rgb(37, 165, 165);
-}
-#quatro{
-    background-color: rgb(48, 172, 120);
-}
-#cinco{
-    background-color: rgb(104, 41, 49);
-}
-#seis{
-    background-color: rgb(109, 110, 11);
-}
-#sete{
-    background-color: rgb(157, 80, 91);
-}
-#oito{
-    background-color: rgb(22, 61, 77);
-}
-#nove{
-    background-color: rgb(126, 47, 146);
+    /* margin-top: px; */
 }
 
-#dez{
-    background-color: rgb(255, 0, 191);
+.bar-container{
+    /* background-color: burlywood; */
+    width: 60%;
+    
+    /* margin-left: 10px; */
 }
- */
 
+
+.bar{
+    width: 90%;
+    height: 7px;
+    margin-bottom: 10px;
+    background: #C4C4C4;
+    border-radius: 12px;
+
+    margin-top: 32px;
+}
+
+.bar-value{
+    width: 100px;
+    background-color: blue;
+    height: 7px;
+    border-radius: 12px;
+}
+.tech-names{
+    width: 40%;
+}
+
+.tech-names p{
+    width: 50.14px;
+    height: 21.34px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+
+    margin-top: 20px;
+
+    color: #4F4F4F;
+}
+
+#html{
+    width: 140px;
+}
+
+#css{
+    width: 110px;
+}
+
+/* .projects-card{
+    width: 859px;
+    height: 320px;
+    background: #FFFFFF;
+    border-radius: 12px;
+} */
