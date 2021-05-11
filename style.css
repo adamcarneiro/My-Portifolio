@@ -34,6 +34,10 @@ main{
     margin-bottom: 20px;
 }
 
+#my-informations{
+    height: 490px;
+}
+
 #my-photo{
     /* display: none; */
     width: 100%;
@@ -46,7 +50,7 @@ main{
 }
 
 .personal-info, .contacts, .about-me{
-    margin-top: 30px;
+    margin-top: 25px;
     font-family: Montserrat;
     font-style: normal;
 }
@@ -103,7 +107,7 @@ main{
 .about-me{
     width: 90%;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 22px;
 
     /* Gray 3 */
@@ -187,6 +191,68 @@ main{
 }
 
 
+/* +++++++++++++++++++++++++++++++++++++++++++++++ HOBBIES CARD +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+#hobbies-card{
+    height: 684px;
+}
+
+#hobbies-card h3 {
+    /* width: 101px;
+    height: 29px; */
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+
+    margin-bottom: 20px;
+
+    color: #4F4F4F;
+}
+
+#hobbies-card h5{
+
+    margin-top: 8px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+
+    color: #333333;
+}
+
+#hobbies-card p{
+    margin-top: 8px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #828282;
+}
+
+.hobbies{
+    margin-top: 20px;
+}
+
+.hobbies img{
+    width: 298px;
+    height: 120px;
+
+    border-radius: 12px;
+
+    object-fit: cover;
+}
+
+
 .projects-card{
     width: 859px;
     height: 320px;
@@ -198,6 +264,8 @@ main{
     background-color: rgb(242, 235, 235);
 
 }
+
+
 
 #dois{
     background-color: yellow;
