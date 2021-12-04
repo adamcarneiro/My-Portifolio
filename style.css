@@ -205,11 +205,12 @@ main{
 #right-side-container{
     display: flex;
     flex-direction: column;
+    row-gap: 40px;
 }
 
 .right-side-top-container{
     /* width: 859px; */
-    height: 220px;
+    height: 200px;
  
     border-radius: 12px;
 
@@ -314,7 +315,6 @@ main{
 /* Here start the centering styling */
 
 .projects-container{
-    /* background-color: green; */
     display: flex;
     flex-direction: column;
     row-gap: 25px;
@@ -358,7 +358,6 @@ main{
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-    /* background-color: greenyellow; */
 }
 
 .techs-used{
@@ -402,3 +401,73 @@ main{
 .buttons-container button:nth-of-type(1){background-color: #2F80ED;  }
 .buttons-container button:nth-of-type(2){background-color: #fff;}
 .buttons-container button:nth-of-type(2) a{color:#2F80ED;}
+
+
+/* ########################################################################################################################## */
+                                                        /* BLOGG */
+/* ########################################################################################################################## */
+.blog-container{
+    height: 350px;
+    display: flex;
+    column-gap: 30px;
+
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 10px;
+    background-color: #fff;
+
+   
+}
+
+.content-blog{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* row-gap: 2px; */
+    justify-content: space-between;
+}
+.blog-container img{
+    width: 50%;
+    cursor:pointer;
+}
+
+.blog-container h3:nth-of-type(1){
+    
+    width: 170px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5625rem;
+    color:#333333;
+}
+
+.blog-container a{
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+.blog-container a:nth-of-type(1){color: #E0E0E0;}
+
+.blog-container a:nth-of-type(2){color: #2F80ED;}
+
+.blog-container p{
+    width: 318px;
+
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.25rem;
+    color:#828282;
+}
+
+footer{
+    height: 30px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center;
+    
+    background-color: #d5d5d5;
+}
+footer p a{
+    text-decoration: none;
+    color:#333333;
+}
