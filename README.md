@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://adamcarneiro-eddie-homepage.netlify.app/"> -->
+    <!-- <a href="https://adam-portifolio.vercel.app/"> -->
       Demo
     </a>
     <span> | </span>
-    <!-- <a href="https://github.com/adamcarneiro/eddie-homepage"> -->
+    <!-- <a href="https://github.com/adamcarneiro/My-Portifolio"> -->
       Solution
     </a>
     <span> | </span>
@@ -37,11 +37,11 @@
 
 ## Overview
 
-<!-- ![screenshot](/screenshots/main-web.png)
-![screenshot](/screenshots/main-mobile.png) -->
+![screenshot](/screenshots/screen_1.png)
+![screenshot](/screenshots/screen_2.png)
+![screenshot](/screenshots/screen_3.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-It is my seventh challenge from devChallenge. I like this challenge because I learned more to complete it.
+This project was building whith intension of pratice web development using the basics technologys HTML, CSS, Javascript..
 
 ### Built With
 
