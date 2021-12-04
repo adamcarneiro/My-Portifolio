@@ -313,13 +313,92 @@ main{
 /* ######################################################################################################## */
 /* Here start the centering styling */
 
-.center-container{
-    background-color: green;
+.projects-container{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
 }
 
-/* .projects-card{
-    width: 859px;
-    height: 320px;
-    background: #FFFFFF;
+.project-title{
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
     border-radius: 12px;
-} */
+    background-color: #fff;
+}
+
+.projects-card{
+    display: flex;
+    column-gap: 25px;
+    height: 280px;
+    /* height: 320px; */
+
+    padding:20px;
+    border-radius: 12px;
+    background-color: #fff;
+}
+
+.project-photo{
+    width: 35%;
+    border-radius: 12px;
+    object-fit:cover;
+}
+
+.project-content-container{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #333333;
+}
+.project-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    /* background-color: greenyellow; */
+}
+
+.techs-used{
+    /* font-size: 0.875rem; */
+    font-size:0.9rem;
+    font-weight: 500;
+}
+
+.title-project{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.text-content{
+    font-size: 0.9rem;
+    color: #828282;
+    line-height:24px;
+}
+
+.buttons-container{
+    display: flex;
+    column-gap: 20px;
+}
+
+.buttons-container button{
+    width: 110px;
+    height: 40px;
+    outline: none;
+
+    font-weight: 500;    
+    border-radius: 12px;
+    cursor: pointer;
+    border: 1px solid #2F80ED;
+}
+
+.buttons-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.buttons-container button:nth-of-type(1){background-color: #2F80ED;  }
+.buttons-container button:nth-of-type(2){background-color: #fff;}
+.buttons-container button:nth-of-type(2) a{color:#2F80ED;}
