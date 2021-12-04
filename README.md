@@ -39,7 +39,7 @@
 
 ![screenshot](/screens/screen-1.png)
 ![screenshot](/screens/screen-2.png)
-![screenshot](/screens/screen3.png)
+![screenshot](/screens/screen-3.png)
 
 This project was building whith intension of pratice web development using the basics technologys HTML, CSS, Javascript..
 
