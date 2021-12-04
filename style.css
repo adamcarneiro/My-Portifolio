@@ -6,18 +6,26 @@
     font-family: Montserrat, sans-serif;
 }
 
+body{
+    /* padding: 3%;
+    background-color: #d5d5d5; */
+}
+
 main{
     width: 100%;
-    padding: 30px;
+    padding: 3%;
 
-    grid-template-columns: 0.5fr 1fr;
+    /* grid-template-columns: 0.5fr 1fr; */
 
-    display: grid;
+    /* display: grid;*/
 
-    column-gap: 30px;
+    column-gap: 20px;
+
+    display: flex;
 
     background-color: #d5d5d5;
-    height: 100%;
+    /* background-color: green; */
+    /* height: 100%; */
 
 }
 
@@ -263,7 +271,7 @@ main{
 }
 
 .right-side-top-container{
-    width: 859px;
+    /* width: 859px; */
     height: 260px;
     border-radius: 12px;
 
@@ -272,7 +280,7 @@ main{
     /* flex-wrap: wrap; */
 
     background-color: #d5d5d5;
-    /* background-color: #cf1717;  */
+    background-color: #cf1717; 
 }
 
 .card{
