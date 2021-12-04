@@ -6,58 +6,47 @@
     font-family: Montserrat, sans-serif;
 }
 
-body{
-    /* padding: 3%;
-    background-color: #d5d5d5; */
-}
-
 main{
+
     width: 100%;
     padding: 3%;
-
-    /* grid-template-columns: 0.5fr 1fr; */
-
-    /* display: grid;*/
 
     column-gap: 20px;
 
     display: flex;
 
     background-color: #d5d5d5;
-    /* background-color: green; */
-    /* height: 100%; */
-
 }
 
 /* LEFT-SIDE */
 #left-card-container{
-    /* background-color: rgb(242, 235, 235); */
-        background-color: #d5d5d5;
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
     }
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ MY INFORMATION CARD ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 .left-card{
-    width: 340px;
-    height: 580px;
+    width: 300px;
+
+    height: 590px;
     background: #FFFFFF;
 
     border-radius: 12px;
 
     padding: 20px;
-
-    margin-bottom: 20px;
 }
 
 #my-informations{
-    height: 490px;
+    height: 520px;
 }
 
 #my-photo{
     /* display: none; */
     width: 100%;
+    height: 250px;
 
     border-radius: 12px;
-
-    height: 205px;
 
     object-fit: cover;
 }
