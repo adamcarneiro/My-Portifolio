@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <!-- <a href="https://adam-portifolio.vercel.app/"> -->
+    <a https://adam-portifolio.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <!-- <a href="https://github.com/adamcarneiro/My-Portifolio"> -->
+    <a href="https://github.com/adamcarneiro/My-Portifolio">
       Solution
     </a>
     <span> | </span>
@@ -37,9 +37,9 @@
 
 ## Overview
 
-![screenshot](/screenshots/screen_1.png)
-![screenshot](/screenshots/screen_2.png)
-![screenshot](/screenshots/screen_3.png)
+![screenshot](/screens/screen-1.png)
+![screenshot](/screens/screen-2.png)
+![screenshot](/screens/screen-3.png)
 
 This project was building whith intension of pratice web development using the basics technologys HTML, CSS, Javascript..
 

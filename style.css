@@ -428,6 +428,8 @@ main{
 }
 .blog-container img{
     width: 50%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
     cursor:pointer;
 }
 
