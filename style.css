@@ -272,19 +272,19 @@ main{
     /* flex-wrap: wrap; */
 
     background-color: #d5d5d5;
+    /* background-color: #cf1717;  */
 }
 
-.right-side-frontend, .left-side-design{
+.card{
+
+    width: 415.02px;
     padding: 20px;
     border-radius: 12px;
 }
 
 .right-side-frontend{
-    /* width: 355.02px; */
-    /* width: 400px; */
-    width: 50%;
-    /* height: 190px; */
-    height: max-content;
+
+    height: fit-content;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
@@ -292,11 +292,12 @@ main{
     background: #FFFFFF;
 }
 
-.right-side-frontend h4, .left-side-design h4{
+.title-right-cards{
 
+    font-size: 18px;
     font-style: normal;
     font-weight: bold;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     text-transform: uppercase;
     
     /* Gray 2 */
@@ -306,42 +307,29 @@ main{
 
 .left-side-design{
     /* width: 415.02px; */
-    width: 45%;
+    /* width: 45%; */
     height: 130px;
 
     background: #FFFFFF;
 }
 
 .tech-container{
-    /* width: 40%; */
-    /* background-color: rgb(240, 11, 11); */
     display: flex;
-    /* align-items:center; */
-
-    /* margin-top: px; */
 }
 
 .bar-container{
-    /* background-color: burlywood; */
     width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     row-gap: 10px;
-    /* margin-left: 10px; */
 }
 
 
 .bar{
-    /* width: 90%; */
     height: 7px;
-    /* margin-bottom: 10px; */
     background: #C4C4C4;
     border-radius: 12px;
-
-    /* margin-top: 32px; */
-
-    /* background-color: burlywood; */
 }
 
 .bar-value{
@@ -352,7 +340,7 @@ main{
 }
 .tech-names{
     width: 25%;
-    /* background-color: green; */
+
     display: flex;
     flex-direction: column;
     row-gap: 10px;
@@ -360,16 +348,12 @@ main{
 }
 
 .tech-names p{
-    /* width: 50.14px;
-    height: 21.34px; */
-
-    /* font-family: Montserrat; */
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 20px;
-
-    /* margin-top: 20px; */
+    /* font-size: 14px; */
+    font-size: 1rem;
+    /* line-height: 20px; */
+    line-height: 1.25rem;
 
     color: #4F4F4F;
 }
