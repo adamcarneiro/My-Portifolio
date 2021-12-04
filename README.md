@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a https://adam-portifolio.netlify.app/">
+    <a href="https://adam-portifolio.netlify.app/">
       Demo
     </a>
     <span> | </span>
@@ -37,9 +37,9 @@
 
 ## Overview
 
-![screenshot](/screens/screen-1.png)
-![screenshot](/screens/screen-2.png)
-![screenshot](/screens/screen-3.png)
+![screenshot](/screenshots/screen-1.png)
+![screenshot](/screenshots/screen-2.png)
+![screenshot](/screenshots/screen3.png)
 
 This project was building whith intension of pratice web development using the basics technologys HTML, CSS, Javascript..
 
