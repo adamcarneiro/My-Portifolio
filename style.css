@@ -190,10 +190,6 @@ main{
     color: #828282;
 }
 
-/* .hobbies{
-    margin-top: 20px;
-} */
-
 .hobbies img{
     width: 100%;
     height: 120px;
@@ -207,37 +203,32 @@ main{
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++ RIGHT SIDE TO INFO +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 #right-side-container{
-    /* background-color: rgb(242, 235, 235); */
-    background-color: #cf1717; 
+    display: flex;
+    flex-direction: column;
 }
 
 .right-side-top-container{
     /* width: 859px; */
-    height: 260px;
+    height: 220px;
+ 
     border-radius: 12px;
 
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
-
-    background-color: #d5d5d5;
-    background-color: #cf1717; 
+    column-gap: 20px;
 }
 
 .card{
 
-    width: 415.02px;
+    width: 50%;
     padding: 20px;
     border-radius: 12px;
-}
-
-.right-side-frontend{
 
     height: fit-content;
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-
+    
     background: #FFFFFF;
 }
 
@@ -254,13 +245,6 @@ main{
     color: #4F4F4F;
 }
 
-.left-side-design{
-    /* width: 415.02px; */
-    /* width: 45%; */
-    height: 130px;
-
-    background: #FFFFFF;
-}
 
 .tech-container{
     display: flex;
@@ -276,7 +260,7 @@ main{
 
 
 .bar{
-    height: 7px;
+    height: 5px;
     background: #C4C4C4;
     border-radius: 12px;
 }
@@ -284,7 +268,7 @@ main{
 .bar-value{
     width: 100px;
     background-color: blue;
-    height: 7px;
+    height: 5px;
     border-radius: 12px;
 }
 .tech-names{
@@ -300,7 +284,7 @@ main{
     font-style: normal;
     font-weight: 500;
     /* font-size: 14px; */
-    font-size: 1rem;
+    font-size: 0.9rem;
     /* line-height: 20px; */
     line-height: 1.25rem;
 
@@ -309,17 +293,28 @@ main{
 
 #html{
     /* width: 140px; */
-    width: 78%;
+    width: 87%;
 }
 
 #css{
     /* width: 110px; */
-    width: 70%;
+    width: 75%;
 }
 
 #js{
     /* width: 110px; */
-    width: 45%;
+    width: 66%;
+}
+
+#react{
+    width: 55%;
+}
+
+/* ######################################################################################################## */
+/* Here start the centering styling */
+
+.center-container{
+    background-color: green;
 }
 
 /* .projects-card{
