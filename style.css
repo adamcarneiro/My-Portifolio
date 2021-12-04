@@ -283,7 +283,11 @@ main{
     /* width: 355.02px; */
     /* width: 400px; */
     width: 50%;
-    height: 190px;
+    /* height: 190px; */
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
 
     background: #FFFFFF;
 }
@@ -309,28 +313,35 @@ main{
 }
 
 .tech-container{
-    /* background-color: brown; */
+    /* width: 40%; */
+    /* background-color: rgb(240, 11, 11); */
     display: flex;
+    /* align-items:center; */
 
     /* margin-top: px; */
 }
 
 .bar-container{
     /* background-color: burlywood; */
-    width: 60%;
-    
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    row-gap: 10px;
     /* margin-left: 10px; */
 }
 
 
 .bar{
-    width: 90%;
+    /* width: 90%; */
     height: 7px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     background: #C4C4C4;
     border-radius: 12px;
 
-    margin-top: 32px;
+    /* margin-top: 32px; */
+
+    /* background-color: burlywood; */
 }
 
 .bar-value{
@@ -340,30 +351,42 @@ main{
     border-radius: 12px;
 }
 .tech-names{
-    width: 40%;
+    width: 25%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: space-around;
 }
 
 .tech-names p{
-    width: 50.14px;
-    height: 21.34px;
+    /* width: 50.14px;
+    height: 21.34px; */
 
-    font-family: Montserrat;
+    /* font-family: Montserrat; */
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
 
-    margin-top: 20px;
+    /* margin-top: 20px; */
 
     color: #4F4F4F;
 }
 
 #html{
-    width: 140px;
+    /* width: 140px; */
+    width: 78%;
 }
 
 #css{
-    width: 110px;
+    /* width: 110px; */
+    width: 70%;
+}
+
+#js{
+    /* width: 110px; */
+    width: 45%;
 }
 
 /* .projects-card{
